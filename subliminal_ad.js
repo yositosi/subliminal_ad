@@ -36,8 +36,6 @@ var SubliminalAd = $.klass({
 	}
 });
 
-new 
-
 $(document).ready(function(){
 	/*
 	new SubliminalAd({
