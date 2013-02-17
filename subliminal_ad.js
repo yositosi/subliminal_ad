@@ -45,22 +45,21 @@ $(document).ready(function(){
 		interval: 3000
 	});
 	*/
+	
+	$("div").each(function(){
+	   var w = $(this).width();
+	   var h = $(this).height();
+	   var l = w / h;
+	   if(100 <= w && w <= 400 && 0.7 <= l && l <= 1.8){
+	        $(this).css({position:"relative"});
+	        var img = $("<img>");
+	        img.attr("src","http://www.shopatrip.com/wp-content/uploads/2012/10/serina.jpeg");
+	        img.css({display:"none",position:"absolute",top:"0px",left:"0px",width:w+"px",height:h+"px"});
+	        $(this).append(img);
+	        setInterval(function(){
+				img.fadeIn(1).delay(1).fadeOut(1);
+			},3000);
+	   }
+	});
+	
 });
-
-$("div").each(function(){
-   var w = $(this).width();
-   var h = $(this).height();
-   var l = w / h;
-   if(100 <= w && w <= 400 && 0.7 <= l && l <= 1.8){
-        $(this).css({position:"relative"});
-        var img = $("<img>");
-        img.attr("src","http://www.shopatrip.com/wp-content/uploads/2012/10/serina.jpeg");
-        img.css({display:"none",position:"absolute",top:"0px",left:"0px",width:w+"px",height:h+"px"});
-        $(this).append(img);
-        setInterval(function(){
-			img.fadeIn(1).delay(1).fadeOut(1);
-		},3000);
-   }
-});
-
-
