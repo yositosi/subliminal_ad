@@ -156,7 +156,7 @@ var SubliminalAd2 = $.klass({
 				}
 			});
 		};
-		
+		alert("done");
 		
 	},
 
