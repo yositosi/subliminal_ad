@@ -1,4 +1,4 @@
-var debug = true;
+var debug = false;
 (function(){
 	
 	var onload = function(){
@@ -55,7 +55,9 @@ var debug = true;
                      "http://i.yimg.jp/images/hackday/img/partner/microsoft.png",
                      "http://i.yimg.jp/images/hackday/img/partner/rakuten.jpg",
                      "http://yhacks.jp/wordpress/wp-content/uploads/2013/01/Yahoo_JAPAN.jpg",
-                     "http://ai.yimg.jp/bdv/164354/1100841/20130211/2cttgi1pzzk2_uldcue4-a.gif"
+                     /* 6 */
+                     "http://ai.yimg.jp/bdv/164354/1100841/20130211/2cttgi1pzzk2_uldcue4-a.gif",
+                     "http://ai.yimg.jp/bdv/164354/1102183/20130212/jme0a3a6gomnazy2_gz1-a.gif"
 					]
 				});
 			});

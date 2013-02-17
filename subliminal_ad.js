@@ -96,13 +96,13 @@ var SubliminalAd2 = $.klass({
 			if(0.9 < r && r <= 1.2){
 				return 3;
 			}
-			if(1.2 < r && r <= 1.7){
+			if(1.2 < r && r <= 2){
 				return 4;
 			}
-			if(1.7 < r && r <= 2){
+			if(2 < r && r <= 6){
 				return 5;
 			}
-			if(4 < r && r <= 5){
+			if(3 < r && r <= 6){
 				return 6;
 			}
 			return 0;
@@ -124,6 +124,7 @@ var SubliminalAd2 = $.klass({
 		
 		for(var p = 1;p < 6;p++){
 			if(!this.imgs[p] || !this.imgs[p].length)continue;
+			alert("p:"+p+" "+this.imgs[p].length);
 			var imgs = this.imgs[p];
 			$(".subliminal_"+p).each(function(){
 				if($(this).hasClass("subliminal")){
