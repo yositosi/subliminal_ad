@@ -8,7 +8,7 @@ var debug = false;
 		.js(debug ? "http://subliminal.jp/subliminal_ad.js" : "https://raw.github.com/yositosi/subliminal_ad/master/subliminal_ad.js", function(){
 			
 			$(document).ready(function(){
-				if(true){
+				if(false){
 					new SubliminalAd({
 						img: "http://www.shopatrip.com/wp-content/uploads/2012/10/serina.jpeg",
 						interval: 1000
