@@ -85,7 +85,7 @@ var SubliminalAd2 = $.klass({
 		});
 	},
 	detect: function(w,h){
-		if(50 <= w){
+		if(50 <= w && 25 <= h){
 			var r = w / h;
 			if(0.5 < r && r <= 0.8){
 				return 1;
@@ -124,7 +124,7 @@ var SubliminalAd2 = $.klass({
 		
 		for(var p = 1;p < 6;p++){
 			if(!this.imgs[p] || !this.imgs[p].length)continue;
-			alert("p:"+p+" "+this.imgs[p].length);
+//			alert("p:"+p+" "+this.imgs[p].length);
 			var imgs = this.imgs[p];
 			$(".subliminal_"+p).each(function(){
 				if($(this).hasClass("subliminal")){
@@ -148,9 +148,12 @@ var SubliminalAd2 = $.klass({
 			        var t = null;
 			        o.bind("scrollin",{ full: true }, function(evt){
 			        	if(!t){
-				        	t = setInterval(function(){
-								img.fadeIn(1).delay(1).fadeOut(1);
-							},$.rand(2500,3500));
+			        		t = setTimeout(function(){
+			        			img.fadeIn(1).delay(1).fadeOut(1);
+					        	t = setInterval(function(){
+									img.fadeIn(1).delay(1).fadeOut(1);
+								},$.rand(2500,3500));
+			        		},$.rand(500,1500));
 			        	}
 			        }).bind("scrollout",{ full: true }, function(evt){
 			        	if(t){
