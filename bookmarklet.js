@@ -22,6 +22,17 @@ var debug = true;
 				     "http://blog-imgs-43.fc2.com/y/u/y/yuyu947/img_328669_3932424_0.jpg",
 				     "http://iphonewp.net/wp-content/uploads/2011/05/oshimayuko_a10.jpg",
                      */
+                     /* 1 */
+                     /* 2 */
+                     /* 3 */
+                     "http://i.yimg.jp/images/shp_edit/cms/sale/whatshot/mens/00019/IMG_5719.jpg",
+                     "http://i.yimg.jp/images/shp_edit/cms/sale/whatshot/mens/00019/IMG_6048.jpg",
+                     "http://smslab.jp/wp-content/uploads/2012/08/2e4472419f8ffde8d420c9a446945a15-180x180.jpeg",
+                     "http://i.yimg.jp/images/shp_blog/report/images/2013/02/05_img4.jpg",
+                     "http://i.yimg.jp/images/shp_blog/trend/images/2012/bakusoku/146_orange.jpg",
+                     "http://25.media.tumblr.com/tumblr_megfpwr5i11qeei56o1_500.jpg",
+                     /* 4 */
+                     /* 5 */
                      "http://a1.smlycdn.com/data/product2/1/204fdb7189de249bef7b55eafd30fa9e5e951c0a_m.jpg",
                      "http://img5.zozo.jp/goodsimages/879/2659879/2659879_26_D_215.jpg",
                      "http://internet.watch.impress.co.jp/img/iw/docs/570/166/02_s.jpg",
