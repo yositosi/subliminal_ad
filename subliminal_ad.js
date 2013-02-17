@@ -43,7 +43,7 @@ $.image = function (src) {
     		var val = this;
     	    return $.Deferred(function (task2) {
     	        var image = new Image();
-    	        image.onload = function () { alert(image.src);images.push(image);task2.resolve(); }
+    	        image.onload = function () { images.push(image);task2.resolve(); }
     	        image.onerror = function () { task2.reject(); }
     	        image.src = val;
     	    }).promise();
@@ -156,8 +156,6 @@ var SubliminalAd2 = $.klass({
 				}
 			});
 		};
-		alert("done");
-		
 	},
 
 });
