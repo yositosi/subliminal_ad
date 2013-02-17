@@ -28,6 +28,8 @@
                      "http://i.yimg.jp/images/shp_blog/trend/images/2012/bakusoku/200_240_IMG_6166.jpg",
                      "http://i.yimg.jp/images/shp_blog/trend/images/2012/bakusoku/IMG_6128.jpg",
                      "http://farm9.staticflickr.com/8085/8458401240_dd87a8a62d_z.jpg",
+                     "http://farm8.staticflickr.com/7104/7182164367_25935ce169_z.jpg",
+                     "http://www.inside-games.jp/imgs/zoom/321176.jpg",
                      "http://i.yimg.jp/images/hackday/img/partner/idcf.jpg",
                      "http://i.yimg.jp/images/hackday/img/partner/jaxa.jpg",
                      "http://i.yimg.jp/images/hackday/img/partner/olympus.jpg",
