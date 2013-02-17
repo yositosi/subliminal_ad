@@ -24,23 +24,18 @@ var debug = false;
                      */
                      /* 1 */
                      /* 2 */
+                     "http://i.yimg.jp/images/shp_blog/trend/images/2012/bakusoku/200_240_IMG_6166.jpg",
                      /* 3 */
+                     /*
+                     "http://25.media.tumblr.com/tumblr_megfpwr5i11qeei56o1_500.jpg",
                      "http://i.yimg.jp/images/shp_edit/cms/sale/whatshot/mens/00019/IMG_5719.jpg",
                      "http://i.yimg.jp/images/shp_edit/cms/sale/whatshot/mens/00019/IMG_6048.jpg",
-                     "http://smslab.jp/wp-content/uploads/2012/08/2e4472419f8ffde8d420c9a446945a15-180x180.jpeg",
-                     "http://i.yimg.jp/images/shp_blog/report/images/2013/02/05_img4.jpg",
                      "http://i.yimg.jp/images/shp_blog/trend/images/2012/bakusoku/146_orange.jpg",
-                     "http://25.media.tumblr.com/tumblr_megfpwr5i11qeei56o1_500.jpg",
+                     "http://i.yimg.jp/images/shp_blog/report/images/2013/02/05_img4.jpg",
+                     */
+                     "http://smslab.jp/wp-content/uploads/2012/08/2e4472419f8ffde8d420c9a446945a15-180x180.jpeg",
                      /* 4 */
                      /* 5 */
-                     "http://a1.smlycdn.com/data/product2/1/204fdb7189de249bef7b55eafd30fa9e5e951c0a_m.jpg",
-                     "http://img5.zozo.jp/goodsimages/879/2659879/2659879_26_D_215.jpg",
-                     "http://internet.watch.impress.co.jp/img/iw/docs/570/166/02_s.jpg",
-                     "http://i.yimg.jp/images/shp_blog/trend/images/2012/bakusoku/200_240_IMG_6166.jpg",
-                     "http://i.yimg.jp/images/shp_blog/trend/images/2012/bakusoku/IMG_6128.jpg",
-                     "http://farm9.staticflickr.com/8085/8458401240_dd87a8a62d_z.jpg",
-                     "http://farm8.staticflickr.com/7104/7182164367_25935ce169_z.jpg",
-                     "http://www.inside-games.jp/imgs/zoom/321176.jpg",
                      "http://i.yimg.jp/images/hackday/img/partner/idcf.jpg",
                      "http://i.yimg.jp/images/hackday/img/partner/jaxa.jpg",
                      "http://i.yimg.jp/images/hackday/img/partner/olympus.jpg",
@@ -55,9 +50,6 @@ var debug = false;
                      "http://i.yimg.jp/images/hackday/img/partner/microsoft.png",
                      "http://i.yimg.jp/images/hackday/img/partner/rakuten.jpg",
                      "http://yhacks.jp/wordpress/wp-content/uploads/2013/01/Yahoo_JAPAN.jpg",
-                     /* 6 */
-                     "http://ai.yimg.jp/bdv/164354/1100841/20130211/2cttgi1pzzk2_uldcue4-a.gif",
-                     "http://ai.yimg.jp/bdv/164354/1102183/20130212/jme0a3a6gomnazy2_gz1-a.gif"
 					]
 				});
 			});
