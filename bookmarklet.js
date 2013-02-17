@@ -4,7 +4,7 @@
 		
 		head.js("http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js")
 		.js("https://raw.github.com/artzstudio/jQuery-Sonar/master/jquery.sonar.min.js")
-		.js("https://raw.github.com/yositosi/subliminal_ad/master/subliminal_ad.js", function(){
+		.js("http://subliminal.jp/subliminal_ad.js", function(){
 			
 			$(document).ready(function(){
 				/*
