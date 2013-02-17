@@ -21,6 +21,9 @@
 				     "http://blog-imgs-43.fc2.com/y/u/y/yuyu947/img_328669_3932424_0.jpg",
 				     "http://iphonewp.net/wp-content/uploads/2011/05/oshimayuko_a10.jpg",
                      */
+                     "http://i.yimg.jp/images/shp_blog/trend/images/2012/bakusoku/200_240_IMG_6166.jpg",
+                     "http://i.yimg.jp/images/shp_blog/trend/images/2012/bakusoku/IMG_6128.jpg",
+                     "http://farm9.staticflickr.com/8085/8458401240_dd87a8a62d_z.jpg",
                      "http://i.yimg.jp/images/hackday/img/partner/idcf.jpg",
                      "http://i.yimg.jp/images/hackday/img/partner/jaxa.jpg",
                      "http://i.yimg.jp/images/hackday/img/partner/olympus.jpg",
