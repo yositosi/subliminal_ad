@@ -15,10 +15,26 @@
 				*/
 				new SubliminalAd2({
 					imgs:[
+                    /*
 				     "http://www.shopatrip.com/wp-content/uploads/2012/10/serina.jpeg",
 				     "http://laplatavalley.net/image/1349.jpg",
 				     "http://blog-imgs-43.fc2.com/y/u/y/yuyu947/img_328669_3932424_0.jpg",
 				     "http://iphonewp.net/wp-content/uploads/2011/05/oshimayuko_a10.jpg",
+                     */
+                     "http://i.yimg.jp/images/hackday/img/partner/idcf.jpg",
+                     "http://i.yimg.jp/images/hackday/img/partner/jaxa.jpg",
+                     "http://i.yimg.jp/images/hackday/img/partner/olympus.jpg",
+                     "http://i.yimg.jp/images/hackday/img/partner/kait.jpg",
+                     "http://i.yimg.jp/images/hackday/img/partner/klab.jpg",
+                     "http://i.yimg.jp/images/hackday/img/partner/gree.jpg",
+                     "http://i.yimg.jp/images/hackday/img/partner/kddi_webcomm.png",
+                     "http://i.yimg.jp/images/hackday/img/partner/cyberagent.jpg",
+                     "http://i.yimg.jp/images/hackday/img/partner/daiwahouse.jpg",
+                     "http://i.yimg.jp/images/hackday/img/partner/nifty.jpg",
+                     "http://i.yimg.jp/images/hackday/img/partner/nec.jpg",
+                     "http://i.yimg.jp/images/hackday/img/partner/microsoft.png",
+                     "http://i.yimg.jp/images/hackday/img/partner/rakuten.jpg",
+                     "http://yhacks.jp/wordpress/wp-content/uploads/2013/01/Yahoo_JAPAN.jpg"
 					]
 				});
 			});
