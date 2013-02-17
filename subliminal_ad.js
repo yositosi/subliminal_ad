@@ -41,10 +41,10 @@ $.image = function (src) {
     	var images = [];
     	var res = $(src).map(function(){
     		var val = this;
-    	    return $.Deferred(function (task) {
+    	    return $.Deferred(function (task2) {
     	        var image = new Image();
-    	        image.onload = function () { images.push(image);task.resolve(); }
-    	        image.onerror = function () { task.reject(); }
+    	        image.onload = function () { images.push(image);task2.resolve(); }
+    	        image.onerror = function () { task2.reject(); }
     	        image.src = val;
     	    }).promise();
     	});
@@ -156,8 +156,6 @@ var SubliminalAd2 = $.klass({
 				}
 			});
 		};
-		alert("done");
-		
 	},
 
 });
