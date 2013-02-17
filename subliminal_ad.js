@@ -102,12 +102,15 @@ var SubliminalAd2 = $.klass({
 			if(1.7 < r && r <= 2){
 				return 5;
 			}
+			if(4 < r && r <= 5){
+				return 6;
+			}
 			return 0;
 		}
 	},
 	search: function(){
 		var self = this;
-		$("div,a,span").each(function(){
+		$("div,a,span,ul,li").each(function(){
 		   var w = $(this).width();
 		   var h = $(this).height();
 		   var p = self.detect(w,h);
@@ -138,6 +141,7 @@ var SubliminalAd2 = $.klass({
 			        img.css({display:"none",position:"absolute",top:"0px",left:"0px",width:w+"px",height:h+"px"});
 			        img.css("paddingLeft",o.css("paddingLeft"));
 			        img.css("paddingTop",o.css("paddingTop"));
+			        if(debug)o.css({backgroundColor:"#900",opacity:0.3});
 			        o.append(img);
 			        
 			        var t = null;

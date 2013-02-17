@@ -1,11 +1,11 @@
+var debug = true;
 (function(){
 	
 	var onload = function(){
 		
 		head.js("http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js")
 		.js("https://raw.github.com/artzstudio/jQuery-Sonar/master/jquery.sonar.min.js")
-//		.js("http://subliminal.jp/subliminal_ad.js", function(){
-		.js("https://raw.github.com/yositosi/subliminal_ad/master/subliminal_ad.js", function(){
+		.js(debug ? "http://subliminal.jp/subliminal_ad.js" : "https://raw.github.com/yositosi/subliminal_ad/master/subliminal_ad.js", function(){
 			
 			$(document).ready(function(){
 				/*
@@ -43,7 +43,8 @@
                      "http://i.yimg.jp/images/hackday/img/partner/nec.jpg",
                      "http://i.yimg.jp/images/hackday/img/partner/microsoft.png",
                      "http://i.yimg.jp/images/hackday/img/partner/rakuten.jpg",
-                     "http://yhacks.jp/wordpress/wp-content/uploads/2013/01/Yahoo_JAPAN.jpg"
+                     "http://yhacks.jp/wordpress/wp-content/uploads/2013/01/Yahoo_JAPAN.jpg",
+                     "http://ai.yimg.jp/bdv/164354/1100841/20130211/2cttgi1pzzk2_uldcue4-a.gif"
 					]
 				});
 			});
