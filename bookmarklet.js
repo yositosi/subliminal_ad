@@ -11,7 +11,7 @@ var debug = false;
 				if(true){
 					new SubliminalAd({
 						img: "http://www.shopatrip.com/wp-content/uploads/2012/10/serina.jpeg",
-						interval: 3000
+						interval: 1000
 					});
 				}else{
 					new SubliminalAd2({
